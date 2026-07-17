@@ -9,7 +9,7 @@ class PedidoController extends Controller
     public function index()
         {
             return response()->json([
-                "pedidos" => []
+                "pedidos" => "teste"
             ]);
         }
 
