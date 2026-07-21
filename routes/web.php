@@ -15,6 +15,6 @@ Route::get('/teste', function () {
 
 Route::get('/teste/{id}', function ($id) {
     return response()->json([
-        'message' => 'Bem vindo!! ' . $id . '!!'
+        'message' => 'Welcome!! ' . $id . '!!'
     ]);
 });
